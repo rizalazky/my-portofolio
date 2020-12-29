@@ -1,0 +1,16 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.navbar-list{
+  list-style: none;
+  margin: 10px;
+}
+
+.navbar-list a{
+	list-style: none;
+	text-decoration: none;
+}

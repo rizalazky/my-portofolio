@@ -1,23 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
 .App {
-  text-align: center;
-  /* justify-content: center;
-  align-items: center; */
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  /*height: 100vh;*/
+  overflow: hidden;
+  /*background: linear-gradient(to bottom right,black,white);*/
+}
+
+.App-container-content{
+  flex: 1;
+ 
+}
+.App-content::-webkit-scrollbar {
+    display: none;
+}
+
+.App-content{
+  padding: 20px;
+  /*background-color: white;*/
+  height: 100vh;
+  overflow-y:scroll;
+  width: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App-image{
+  display: flex;
+  /*background-color: black;*/
+  /*background:linear-gradient(to bottom right,grey,white);*/
+  width: 400px;
+  /*background-image: url('./assets/image/fotojpg.jpg');*/
+  /*background-image: linear-gradient(to bottom,black,white),url('./assets/image/fotojpg.jpg');*/
+  /*background-blend-mode: multiply;*/
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  /*filter: grayscale(40%);*/
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  border-radius: 50%;
+  opacity: 70%;
+  background-image:linear-gradient(to bottom,black,white);
 }
 
-.navbar{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.navbar-list{
-  list-style: none;
-}
 
 .flex-center{
   display: flex;
@@ -31,7 +70,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /*animation: App-logo-spin infinite 20s linear;*/
   }
 }
 

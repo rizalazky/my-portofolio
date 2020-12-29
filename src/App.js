@@ -1,39 +1,43 @@
-import logo from './logo.svg';
+import logo from './assets/image/fotojpg.jpg';
 import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-import {Resume,Portofolio,Profile,Contact} from './pages';
+import {Resume,Portofolio,Profile,Home} from './pages';
 import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-image">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Mohammad Rizal Azky Gajah</p>
-        
-      </header>
-      <Router>
-        <Navbar/>
-        <Switch >
-        <Route exact path="/">
-            <Profile/>
-          </Route>
-          <Route path="/resume" component={Resume}>
-            
-          </Route>  
-          <Route path="/portofolio">
-            <Portofolio/>
-          </Route>
-          <Route path="/contact">
-            <Contact/>  
-          </Route>
-        </Switch>
-
-      </Router>
+        <h3>Mohammad Rizal Azky</h3>
+        <h4>Web Developer</h4>
+      </div>
+      <div className='App-container-content'>
+          <Router>
+            <Navbar/>
+            <div className='App-content'>
+            <Switch >
+            <Route exact path="/">
+                <Home/>
+              </Route>
+              <Route path="/resume" component={Resume}>
+                
+              </Route>  
+              <Route path="/portofolio">
+                <Portofolio/>
+              </Route>
+              <Route path="/profile">
+                <Profile/>  
+              </Route>
+            </Switch>
+            </div>
+          </Router>  
+      </div>
+      
     </div>
   );
 }

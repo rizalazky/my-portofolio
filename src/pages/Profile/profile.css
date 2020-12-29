@@ -1,0 +1,30 @@
+.profile{
+
+}
+
+h2{
+	margin: 20px;
+}
+
+
+h4{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.profile-content{
+	/*background-color: red;*/
+	width: 600px;
+}
+
+.profile-content div{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.profile-label{
+	/*background-color: yellow;*/
+	display: inline-block;
+	width: 200px;
+	margin-right: 180px;
+}
