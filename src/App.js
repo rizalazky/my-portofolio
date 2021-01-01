@@ -10,6 +10,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
+    <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
       <div className="App-image">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,11 +18,11 @@ function App() {
         <h4>Web Developer</h4>
       </div>
       <div className='App-container-content'>
-          <Router basename={process.env.PUBLIC_URL}>
+          
             <Navbar/>
             <div className='App-content'>
             <Switch >
-            <Route exact path="/">
+            <Route exact  path="/">
                 <Home/>
               </Route>
               <Route path="/resume" component={Resume}>
@@ -35,10 +36,11 @@ function App() {
               </Route>
             </Switch>
             </div>
-          </Router>  
+            
       </div>
       
     </div>
+    </Router>
   );
 }
 
