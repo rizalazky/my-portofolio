@@ -1,4 +1,4 @@
-import logo from './assets/image/fotojpg.jpg';
+import Foto from './assets/image/fotojpg.jpg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -13,7 +13,7 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
       <div className="App-image">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Foto} className="App-logo" alt="logo" />
         <h3>Mohammad Rizal Azky</h3>
         <h4>Web Developer</h4>
       </div>
