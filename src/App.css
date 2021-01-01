@@ -53,7 +53,7 @@
   height: 40vmin;
   pointer-events: none;
   border-radius: 50%;
-  opacity: 70%;
+  /* opacity: 70%; */
   background-image:linear-gradient(to bottom,black,white);
 }
 
