@@ -17,7 +17,7 @@ function App() {
         <h4>Web Developer</h4>
       </div>
       <div className='App-container-content'>
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <Navbar/>
             <div className='App-content'>
             <Switch >
