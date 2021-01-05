@@ -3,50 +3,63 @@
   margin: 0;
 }
 
-
-
 .App {
   display: flex;
   flex-direction: row;
-  min-height: 100vh;
-  /*height: 100vh;*/
+  min-height: 93.5vh;
+  height: 93.5vh;
   overflow: hidden;
+  background-image: url('./assets/image/image2.jpg');
+  /* #3C8DBC blue klik dokter */
+  /* #008080 tosca */
+  /* #FFFFFF white admin lte */
+  /* background-color: blue; */
+  /* background-image: linear-gradient(to right,grey,#FFFFFF),url('./assets/image/image2.jpg'); */
+  /* background-blend-mode: soft-light ; */
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  justify-content: flex-start;
+  /* align-items: center; */
+  padding: 20px;
+  flex-direction: row;
+  font-family: cursive;
+  color: white;
   /*background: linear-gradient(to bottom right,black,white);*/
+}
+.isdark{
+  background-color: #050505;
+  opacity: 0.70;
+  color:whitesmoke;
 }
 
 .App-container-content{
   flex: 1;
- 
+  padding-bottom:100px;
 }
 .App-content::-webkit-scrollbar {
-    display: none;
+    display: run-in;
 }
 
 .App-content{
   padding: 20px;
-  /*background-color: white;*/
-  height: 100vh;
+  transition: step-end 2s linear 2s;
+  height: 93vh;
   overflow-y:scroll;
-  width: 100%;
+  /* width: 100%; */
   box-sizing: border-box;
   scroll-behavior: smooth;
+  padding-bottom: 100px;
 }
 
 .App-image{
   display: flex;
-  /*background-color: black;*/
-  /*background:linear-gradient(to bottom right,grey,white);*/
-  width: 400px;
-  /*background-image: url('./assets/image/fotojpg.jpg');*/
-  /*background-image: linear-gradient(to bottom,black,white),url('./assets/image/fotojpg.jpg');*/
-  /*background-blend-mode: multiply;*/
-  /*background-size: cover;*/
-  /*background-repeat: no-repeat;*/
-  justify-content: center;
-  align-items: center;
+  width: 500px;
   flex-direction: column;
-  /* color: white; */
-  /*filter: grayscale(40%);*/
+}
+
+.App-image-text{
+  color: #515151;
 }
 
 .App-logo {

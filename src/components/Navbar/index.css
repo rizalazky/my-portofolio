@@ -3,6 +3,8 @@
   flex-direction: row;
   justify-content: flex-end;
   padding: 10px;
+
+  /* background-color: #1E2B31; */
 }
 
 .navbar-list{
@@ -12,5 +14,16 @@
 
 .navbar-list a{
 	list-style: none;
-	text-decoration: none;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navbar-list a:hover{
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+.navbar-list a:focus{
+  text-decoration: underline;
+  text-decoration-style: wavy;
 }

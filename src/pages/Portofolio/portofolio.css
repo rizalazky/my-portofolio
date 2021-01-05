@@ -1,0 +1,52 @@
+.nav-portofolio{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.nav-portofolio-item{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.nav-portofolio-item:hover{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.nav-portofolio-item:active{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.card-portofolio-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-portofolio{
+    background-color: #FFFFFF;
+    width: 180px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: black;
+}
+
+.card-portofolio-image{
+    width: 100px;
+    height: 100px;
+}
+.card-portofolio-title{
+    font-size: 16px;
+}
+.card-portofolio-desc{
+    font-size: 12px;
+}
+.card-portofolio-url{
+    font-size: 12px;
+}

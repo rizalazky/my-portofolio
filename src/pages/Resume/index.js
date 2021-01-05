@@ -1,53 +1,42 @@
 import React from 'react'
-
+import './index.css'
+import dataJSON from './../../assets/data/data.json'
 function Resume() {
+
+	const data=dataJSON
     return (
         <div>
         	<div>
-            <h2>Pengalaman Kerja</h2>
+            <h2>Work Experience</h2>
             <div>
-            	<ul>
-            		<li>
-            			<h3>PT Evolusi Teknologi Semesta</h3>
-            			<p>November 2019-Desember 2020</p>
-            		</li>
+            	<ul className='list-experience'>
+					{
+						data.workExperience.map((dt,index)=>{
+							return(
+								<li className='list-experience-item' key={index}>
+									<h3>{dt.namaInstansi}</h3>
+									<p>{dt.tahun}</p>
+									<p>{dt.deskripsiPekerjaan}</p>
+								</li>
+							)
+						})
+					}
+            		
             	</ul>
             </div>
             </div>
-            <div>
+            <div className='list-skill-container'>
             	<h2>Skill</h2>
-            	<div>
-            		<h3>HTML</h3>
-            		<input type="range" value="90" min="1" max="100"/>
-            	</div>
-            	<div>
-            		<h3>CSS</h3>
-            		<input type="range" value="80" min="1" max="100"/>
-            	</div>
-            	<div>
-            		<h3>Javascript</h3>
-            		<input type="range" value="90" min="1" max="100"/>
-            	</div>
-            	<div>
-            		<h3>PHP</h3>
-            		<input type="range" value="80" min="1" max="100"/>
-            	</div>
-            	<div>
-            		<h3>Codeigniter</h3>
-            		<input type="range" value="80" min="1" max="100"/>
-            	</div>
-            	<div>
-            		<h3>React Js</h3>
-            		<input type="range" value="75" min="1" max="100"/>
-            	</div>
-            	<div>
-            		<h3>React Native</h3>
-            		<input type="range" value="70" min="1" max="100"/>
-            	</div>
-            	<div>
-            		<h3>ASP .Net</h3>
-            		<input type="range" value="70" min="1" max="100"/>
-            	</div>
+				{
+					data.skill.map((dt,index)=>{
+						return(
+							<div className='list-skill-item' key={index}>
+								<h3>{dt.desc}</h3>
+								<input type="range" defaultValue={dt.value} min="1" max="100"/>
+							</div>
+						)
+					})
+				}
             </div>
         </div>
     )

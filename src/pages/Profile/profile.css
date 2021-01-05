@@ -1,5 +1,5 @@
-.profile{
-
+.profile *{
+	color: whitesmoke;
 }
 
 h2{
@@ -26,5 +26,5 @@ h4{
 	/*background-color: yellow;*/
 	display: inline-block;
 	width: 200px;
-	margin-right: 180px;
+	margin-right: 170px;
 }

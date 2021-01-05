@@ -1,0 +1,95 @@
+{
+    "workExperience":[{
+        "namaInstansi":"PT Evolusi Teknologi Semesta",
+        "tahun":"November 2019 - Desember 2020",
+        "deskripsiPekerjaan":"Mengembangkan Web LOS ASP.Net,Membuat Flow Bisnis LOS,Membuat Template Surat dengan HTML,Berkolaborasi dengan tim IT Support untuk membuat dokumentasi sistem LOS"
+    }],
+    "skill":[{
+        "desc":"HTML",
+        "value":90
+    },{
+        "desc":"CSS",
+        "value":80
+    },{
+        "desc":"Javascript",
+        "value":90
+    },{
+        "desc":"PHP",
+        "value":80
+    },{
+        "desc":"Codeigniter",
+        "value":80
+    },{
+        "desc":"React Js",
+        "value":75
+    },{
+        "desc":"React Native",
+        "value":70
+    },{
+        "desc":"ASP.Net",
+        "value":70
+    }],
+    "portofolio":{
+        "web":[{
+            "image":"imageUrl",
+            "title":"Apemasi Pemali Comal",
+            "tech":[
+                "PHP Native",
+                "CSS",
+                "Bottstrap"
+            ],
+            "desc":"Deskripsi",
+            "url":"https://pemalicomal.com/"
+        },{
+            "image":"imageUrl",
+            "title":"Sistem Monitoring Ketinggian Air dipantai Randusanga Berbasis IOT",
+            "tech":[
+                "PHP Codeigniter 3",
+                "CSS",
+                "Bottstrap",
+                "Arduin Uno"
+            ],
+            "desc":"Sistem Aplikasi Web Berbasis IOT yang digunakan untuk monitoring ketinggian air guna menanggulangi Kerugian apabila akan terjadi banjir",
+            "url":""
+        },{
+            "image":"imageUrl",
+            "title":"LOS (Loan Origination System) - Pt Evoteks",
+            "tech":[
+                "ASP.Net",
+                "Sql Server",
+                "Ext.Net"
+            ],
+            "desc":"Merupakan Aplikasi Sistem Pengajuan Kredit yang dibuat menggunakan Asp.net",
+            "url":""
+        },{
+            "image":"imageUrl",
+            "title":"Instagram Clone",
+            "tech":[
+                "React Js",
+                "Firebase",
+                "Material UI"
+            ],
+            "desc":"Merupakan Aplikasi Cloning Instagram berbasis Website menggunakan React Js dan Firebase",
+            "url":"https://intagram-clone-firebase-73ec7.web.app/"
+        }],
+        "mobile":[{
+            "image":"imageUrl",
+            "title":"My Doctor",
+            "tech":[
+                "React Native",
+                "Firebase"
+            ],
+            "desc":"Merupakan Aplikasi Cloning Instagram berbasis Website menggunakan React Js dan Firebase",
+            "url":"https://intagram-clone-firebase-73ec7.web.app/"
+        },{
+            "image":"imageUrl",
+            "title":"Dana Clone",
+            "tech":[
+                "React Native",
+                "Firebase"
+            ],
+            "desc":"Merupakan Aplikasi Cloning Dana berbasis Mobile menggunakan React Native dan Firebase",
+            "url":"https://intagram-clone-firebase-73ec7.web.app/"
+        }]
+    }
+}
