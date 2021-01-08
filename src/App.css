@@ -26,12 +26,14 @@
   font-family: cursive;
   color: white;
   /*background: linear-gradient(to bottom right,black,white);*/
+  background-color: #515151;
+  /* opacity: 0.70; */
 }
-.isdark{
+/* .isdark{
   background-color: #050505;
   opacity: 0.70;
   color:whitesmoke;
-}
+} */
 
 .App-container-content{
   flex: 1;
@@ -67,6 +69,7 @@
   pointer-events: none;
   border-radius: 50%;
   /* opacity: 70%; */
+  display: none;
   background-image:linear-gradient(to bottom,black,white);
 }
 
@@ -81,9 +84,62 @@
   flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media only screen and (max-width :1000px){
+  .App{
+    display: flex;
+    flex-direction: column;
+    background: #F8F9FA;
+    color: #515151;
+    overflow: auto;
+    height:max-content;
+    min-height: fit-content;
+    padding: 0;
+  }
+
+  .App-image{
+    background-color: #515151;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    color:whitesmoke;
+    padding: 30px;
+
+  }
+
+  .App-logo{
+    display: block;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    margin-bottom: 12px;
+    border: 5px solid whitesmoke;
+  }
+
+  .App-image-text{
+    color: whitesmoke;
+  }
+
+  .App-content{
+    padding: 20px;
+    transition: step-end 2s linear 2s;
+    /* height: 93vh; */
+    /* overflow-y:scroll; */
+    /* width: 100%; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding-bottom: 100px;
+  }
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    /*animation: App-logo-spin infinite 20s linear;*/
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -109,4 +165,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

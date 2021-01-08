@@ -32,7 +32,7 @@ function Resume() {
 						return(
 							<div className='list-skill-item' key={index}>
 								<h3>{dt.desc}</h3>
-								<input type="range" defaultValue={dt.value} min="1" max="100"/>
+								<input type="range" defaultValue={dt.value} value={dt.value} min="1" max="100"/>
 							</div>
 						)
 					})

@@ -17,3 +17,25 @@
 .list-skill-item input{
     width: 80%;
 }
+
+@media only screen and (max-width:1000px){
+    .list-experience{
+        padding: 20px;
+    }
+    
+    .list-experience-item{
+        list-style: none;
+    }
+    
+    .list-skill-container{
+        padding: 20px;
+    }
+    
+    .list-skill-item{
+        margin: 10px;
+    }
+    
+    .list-skill-item input{
+        width: 100%;
+    }
+}

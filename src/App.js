@@ -1,4 +1,4 @@
-// import Foto from './assets/image/image1.jpg';
+import Foto from './assets/image/image1.jpg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -21,7 +21,7 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
     <div className={`App isdark ${isDark && `isdark`}`}>
       <div className="App-image">
-        {/* <img src={Foto} className="App-logo" alt="logo" /> */}
+        <img src={Foto} className="App-logo" alt="logo" />
         {
           !isDark && (
             <>

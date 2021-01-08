@@ -31,17 +31,17 @@
     }],
     "portofolio":{
         "web":[{
-            "image":"imageUrl",
+            "image":"nullPhoto.PNG",
             "title":"Apemasi Pemali Comal",
             "tech":[
                 "PHP Native",
                 "CSS",
                 "Bottstrap"
             ],
-            "desc":"Deskripsi",
+            "desc":"E - SISDA PEMALI COMAL Balai Pengelolaan Sumber Daya Air Pemali Comal Jl. Dr. Sutomo No. 53 Pemali Comal, Kel. Pekauman, Kec. Tegal Barat, Kota Tegal, Jawa Tengah 52112",
             "url":"https://pemalicomal.com/"
         },{
-            "image":"imageUrl",
+            "image":"nullPhoto.PNG",
             "title":"Sistem Monitoring Ketinggian Air dipantai Randusanga Berbasis IOT",
             "tech":[
                 "PHP Codeigniter 3",
@@ -52,7 +52,7 @@
             "desc":"Sistem Aplikasi Web Berbasis IOT yang digunakan untuk monitoring ketinggian air guna menanggulangi Kerugian apabila akan terjadi banjir",
             "url":""
         },{
-            "image":"imageUrl",
+            "image":"nullPhoto.PNG",
             "title":"LOS (Loan Origination System) - Pt Evoteks",
             "tech":[
                 "ASP.Net",
@@ -62,7 +62,7 @@
             "desc":"Merupakan Aplikasi Sistem Pengajuan Kredit yang dibuat menggunakan Asp.net",
             "url":""
         },{
-            "image":"imageUrl",
+            "image":"nullPhoto.PNG",
             "title":"Instagram Clone",
             "tech":[
                 "React Js",
@@ -73,7 +73,7 @@
             "url":"https://intagram-clone-firebase-73ec7.web.app/"
         }],
         "mobile":[{
-            "image":"imageUrl",
+            "image":"MyDoctor.png",
             "title":"My Doctor",
             "tech":[
                 "React Native",
@@ -82,7 +82,7 @@
             "desc":"Merupakan Aplikasi Cloning Instagram berbasis Website menggunakan React Js dan Firebase",
             "url":"https://intagram-clone-firebase-73ec7.web.app/"
         },{
-            "image":"imageUrl",
+            "image":"DanaCloneImage.PNG",
             "title":"Dana Clone",
             "tech":[
                 "React Native",
