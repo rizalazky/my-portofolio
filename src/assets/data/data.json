@@ -6,28 +6,31 @@
     }],
     "skill":[{
         "desc":"HTML",
-        "value":90
+        "value":"intermediate"
     },{
         "desc":"CSS",
-        "value":80
+        "value":"intermediate"
     },{
         "desc":"Javascript",
-        "value":90
+        "value":"intermediate"
     },{
         "desc":"PHP",
-        "value":80
+        "value":"intermediate"
     },{
         "desc":"Codeigniter",
-        "value":80
+        "value":"intermediate"
     },{
         "desc":"React Js",
-        "value":75
+        "value":"intermediate"
     },{
         "desc":"React Native",
-        "value":70
+        "value":"Beginner"
     },{
         "desc":"ASP.Net",
-        "value":70
+        "value":"Beginner"
+    },{
+        "desc":"Node Js (Express Js)",
+        "value":"Beginner"
     }],
     "portofolio":{
         "web":[{
@@ -62,7 +65,7 @@
             "desc":"Merupakan Aplikasi Sistem Pengajuan Kredit yang dibuat menggunakan Asp.net",
             "url":""
         },{
-            "image":"nullPhoto.PNG",
+            "image":"InstagramClone.PNG",
             "title":"Instagram Clone",
             "tech":[
                 "React Js",

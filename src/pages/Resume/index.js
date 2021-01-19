@@ -31,8 +31,8 @@ function Resume() {
 					data.skill.map((dt,index)=>{
 						return(
 							<div className='list-skill-item' key={index}>
-								<h3>{dt.desc}</h3>
-								<input type="range" defaultValue={dt.value} value={dt.value} min="1" max="100"/>
+								<h3>{`${dt.desc} (${dt.value})`}</h3>
+								{/* <input type="range" defaultValue={dt.value} value={dt.value} min="1" max="100"/> */}
 							</div>
 						)
 					})
