@@ -31,7 +31,7 @@
     }],
     "portofolio":{
         "web":[{
-            "image":"nullPhoto.PNG",
+            "image":"pemalicomal.PNG",
             "title":"Apemasi Pemali Comal",
             "tech":[
                 "PHP Native",
@@ -71,6 +71,16 @@
             ],
             "desc":"Merupakan Aplikasi Cloning Instagram berbasis Website menggunakan React Js dan Firebase",
             "url":"https://intagram-clone-firebase-73ec7.web.app/"
+        },{
+            "image":"POS-Reactjs.PNG",
+            "title":"POS",
+            "tech":[
+                "React Js",
+                "Firebase",
+                "Css"
+            ],
+            "desc":"Point Of Sale berbasis Website menggunakan React Js dan Firebase",
+            "url":"https://shop-e399c.web.app/"
         }],
         "mobile":[{
             "image":"MyDoctor.png",

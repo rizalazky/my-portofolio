@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './portofolio.css'
+import {Link} from 'react-router-dom'
 import dataJSON from './../../assets/data/data.json'
-import MyDoctor from "../../assets/image/portofolio/MyDoctor.png"
 
 
 function Portofolio() {
@@ -20,10 +20,12 @@ function Portofolio() {
                         
                         return(
                             <div key={index} className='card-portofolio'>
-                                <img src={require(`./../../assets/image/portofolio/${dt.image}`)} width='100' height='100' alt={index+1}/>
-                                <p className='card-portofolio-title'>{dt.title}</p>
-                                <p className='card-portofolio-desc'>{dt.desc}</p>
-                                <p className='card-portofolio-url'>{dt.url}</p>
+                                <img src={`images/portofolio/${dt.image}`}  className='card-portofolio-image' alt={index+1}/>
+                                <div>
+                                    <p className='card-portofolio-title'>{dt.title}</p>
+                                    <p className='card-portofolio-desc'>{dt.desc}</p>
+                                    <a className='card-portofolio-url' href={dt.url}>{dt.url}</a>
+                                </div>
                             </div>
                         )
                     })
