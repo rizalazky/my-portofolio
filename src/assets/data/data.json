@@ -93,7 +93,7 @@
                 "Firebase"
             ],
             "desc":"Merupakan Aplikasi Cloning Instagram berbasis Website menggunakan React Js dan Firebase",
-            "url":"https://intagram-clone-firebase-73ec7.web.app/"
+            "url":""
         },{
             "image":"DanaCloneImage.PNG",
             "title":"Dana Clone",
@@ -102,7 +102,7 @@
                 "Firebase"
             ],
             "desc":"Merupakan Aplikasi Cloning Dana berbasis Mobile menggunakan React Native dan Firebase",
-            "url":"https://intagram-clone-firebase-73ec7.web.app/"
+            "url":""
         }]
     }
 }
