@@ -19,17 +19,17 @@ function Portofolio() {
                     data[type].map((dt,index)=>{
                         
                         return(
-                            <div key={index} className='card-portofolio'>
+                            <Link to={`detail/${type}/${index}`} key={index} className='card-portofolio'>
                                 <img src={`images/portofolio/${dt.image}`}  className='card-portofolio-image' alt={index+1}/>
-                                <div>
+                                <div className='container'>
                                     <p className='card-portofolio-title'>{dt.title}</p>
-                                    <p className='card-portofolio-desc'>{dt.desc}</p>
-                                    <a className='card-portofolio-url' href={dt.url}>{dt.url}</a>
-                                    {/* <button>
-                                        <Link to={`detail/${type}/${index}`}>Detail</Link>
-                                    </button> */}
+                                    {/* <p className='card-portofolio-desc'>{dt.desc}</p>
+                                    <a className='card-portofolio-url' href={dt.url}>{dt.url}</a> */}
                                 </div>
-                            </div>
+                                <div className='overlay'>
+                                    <p className='overlay-text'>Detail</p>
+                                </div>
+                            </Link>
                         )
                     })
                 }

@@ -9,9 +9,9 @@ function Detail(){
 
     console.log(data)
     return(
-        <div>
+        <div className='detail'>
             <div className='container-img'>
-                <img src={`../../images/portofolio/${data.image}`} className='img' alt={id}/>
+                <img src={`images/portofolio/${data.image}`} className='img' alt={id}/>
             </div>
             <h1>{data.title}</h1>
             <p>{data.desc}</p>

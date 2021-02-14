@@ -29,28 +29,35 @@
 
 .card-portofolio{
     background-color: #FFFFFF;
-    width: 180px;
+    position: relative;
+    width: 300px;
     margin: 10px;
-    border-radius: 10px;
-    border: 1px solid #E0E0E0;
+    box-shadow: 0 4px 8px 0 white,black;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0,0.125);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
     color: black;
 }
 
 .card-portofolio-image{
     width: 100%;
-    height: 170px;
-    border-radius: 10px;
+    height: 200px;
+    /* border-radius: 10px;  */
+}
+
+.container{
+    text-align: center;
+  padding: 10px 20px;
 }
 
 
 .card-portofolio-title{
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .card-portofolio-desc{
     font-size: 12px;
@@ -59,15 +66,34 @@
     font-size: 12px;
 }
 
-/* @media only screen and (max-width :500px){
+.overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008CBA;
+    color: white;
+    transition: .5s ease-in-out;
+}
+.card-portofolio:hover .overlay{
+    opacity: 0.7;
+}
+
+@media only screen and (max-width :500px){
     .card-portofolio{
         width: 100%;
-        min-height: 500px;
+        /* min-height: 500px; */
     }
     .card-portofolio-image{
         width: 100%;
-        height: 500px;
-        border-radius: 10px;
+        
     }
-} */
+}
 
