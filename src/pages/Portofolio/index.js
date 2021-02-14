@@ -25,6 +25,9 @@ function Portofolio() {
                                     <p className='card-portofolio-title'>{dt.title}</p>
                                     <p className='card-portofolio-desc'>{dt.desc}</p>
                                     <a className='card-portofolio-url' href={dt.url}>{dt.url}</a>
+                                    {/* <button>
+                                        <Link to={`detail/${type}/${index}`}>Detail</Link>
+                                    </button> */}
                                 </div>
                             </div>
                         )

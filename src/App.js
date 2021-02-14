@@ -1,13 +1,12 @@
 import Foto from './assets/image/image1.jpg';
 import './App.css';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-import {Resume,Portofolio,Profile,Home} from './pages';
+import {Resume,Portofolio,Profile,Home,Detail} from './pages';
 import Navbar from './components/Navbar';
-
 import React,{useState} from 'react'
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
   }
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
     <div className={`App isdark ${isDark && `isdark`}`}>
       <div className="App-image">
         <img src={Foto} className="App-logo" alt="logo" />
@@ -46,11 +45,12 @@ function App() {
               <Route path="/profile">
                 <Profile/>  
               </Route>
+              <Route path="/detail/:type/:id">
+                <Detail/>  
+              </Route>
             </Switch>
             </div>
-            
       </div>
-      
     </div>
     </Router>
   );
