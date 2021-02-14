@@ -13,8 +13,9 @@ function Detail(){
             <div className='container-img'>
                 <img src={`images/portofolio/${data.image}`} className='img' alt={id}/>
             </div>
-            <h1>{data.title}</h1>
+            <h2>{data.title}</h2>
             <p>{data.desc}</p>
+            <a href={data.url}>{data.url}</a>
             <h2>Technologi</h2>
             <ul>
                 {

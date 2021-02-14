@@ -41,6 +41,9 @@
                 "CSS",
                 "Bottstrap"
             ],
+            "tools":[
+                "vscode"
+            ],
             "desc":"E - SISDA PEMALI COMAL Balai Pengelolaan Sumber Daya Air Pemali Comal Jl. Dr. Sutomo No. 53 Pemali Comal, Kel. Pekauman, Kec. Tegal Barat, Kota Tegal, Jawa Tengah 52112",
             "url":"https://pemalicomal.com/"
         },{
@@ -52,6 +55,9 @@
                 "Bottstrap",
                 "Arduin Uno"
             ],
+            "tools":[
+                "vscode"
+            ],
             "desc":"Sistem Aplikasi Web Berbasis IOT yang digunakan untuk monitoring ketinggian air guna menanggulangi Kerugian apabila akan terjadi banjir",
             "url":""
         },{
@@ -61,6 +67,9 @@
                 "ASP.Net",
                 "Sql Server",
                 "Ext.Net"
+            ],
+            "tools":[
+                "visual studio"
             ],
             "desc":"Merupakan Aplikasi Sistem Pengajuan Kredit yang dibuat menggunakan Asp.net",
             "url":""
@@ -72,6 +81,10 @@
                 "Firebase",
                 "Material UI"
             ],
+            "tools":[
+                "vscode",
+                "github"
+            ],
             "desc":"Merupakan Aplikasi Cloning Instagram berbasis Website menggunakan React Js dan Firebase",
             "url":"https://intagram-clone-firebase-73ec7.web.app/"
         },{
@@ -81,6 +94,9 @@
                 "React Js",
                 "Firebase",
                 "Css"
+            ],
+            "tools":[
+                "vscode"
             ],
             "desc":"Point Of Sale berbasis Website menggunakan React Js dan Firebase",
             "url":"https://shop-e399c.web.app/"
@@ -92,6 +108,9 @@
                 "React Native",
                 "Firebase"
             ],
+            "tools":[
+                "vscode"
+            ],
             "desc":"Merupakan Aplikasi Cloning Instagram berbasis Website menggunakan React Js dan Firebase",
             "url":""
         },{
@@ -100,6 +119,9 @@
             "tech":[
                 "React Native",
                 "Firebase"
+            ],
+            "tools":[
+                "vscode"
             ],
             "desc":"Merupakan Aplikasi Cloning Dana berbasis Mobile menggunakan React Native dan Firebase",
             "url":""
